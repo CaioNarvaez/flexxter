@@ -1,12 +1,17 @@
 # flexxter
 Technical PHP test by Flexxter
 
-Database Connection: 
-    database_connection.php 
-
-Classes:
-    Employee.php
-    Machine.php
+Main: <br>
+    <b>Flexxter.php</b>
     
-Main:
-    Flexxter.php
+Classes:<br>
+    <b>Employee.php</b><br>
+    <b>Machine.php</b>
+       
+Database Connection: <br>
+    <b>database_connection.php </b>
+    
+Database Diagram: 
+<div align="center">
+<img src="https://github.com/CaioNarvaez/flexxter/blob/main/database-diagram.png">
+</div>
