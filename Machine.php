@@ -112,7 +112,8 @@ class Machine {
                 INNER JOIN
             tblmachines AS TM ON TCO.MachineID = TM.MachineID
         WHERE
-            TCO.date_return IS NULL;";
+            TCO.date_return IS NULL 
+            AND TM.MachineID = :id_machine;";
         $stmt 	= $pdo->prepare($sql);
         $stmt->bindParam(':id_machine', $id_machine, PDO::PARAM_INT);                                     
         $stmt->execute();
