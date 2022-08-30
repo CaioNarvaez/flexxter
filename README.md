@@ -1,5 +1,8 @@
 # flexxter
-Technical PHP test by Flexxter
+
+This was my first Technical PHP test by Flexxter.de
+
+It was a basic php test for a workstudent position in 2021.
 
 Main: <br>
     <b>Flexxter.php</b>
